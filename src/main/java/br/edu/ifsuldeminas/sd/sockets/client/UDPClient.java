@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class UDPClient {
 
-    private static final int TIME_OUT = 5000; // Ajuste o tempo de timeout se necessário
+    private static final int TIME_OUT = 5000; 
     private static int SERVER_PORT = 3000;
     private static int BUFFER_SIZE = 200;
 
