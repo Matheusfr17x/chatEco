@@ -23,7 +23,7 @@ public class UDPClient {
 
         try {
             datagramSocket = new DatagramSocket();
-            serverAddress = InetAddress.getLocalHost(); // Altere se o servidor não estiver na mesma máquina
+            serverAddress = InetAddress.getLocalHost(); 
 
             while (!stringMessage.equals(KEY_TO_EXIT)) {
                 System.out.printf("Escreva uma mensagem (%s para sair): ", KEY_TO_EXIT);
